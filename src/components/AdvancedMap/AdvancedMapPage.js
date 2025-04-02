@@ -44,7 +44,7 @@ export default withStyles(styles)(function AdvancedMap(props) {
         getAreas();
         getWidgetsPreference();
         getMachines();
-        console.log(t)
+
         GoogleMapsStore.storeEnableCards(true);
 
         return clear;
@@ -144,7 +144,7 @@ export default withStyles(styles)(function AdvancedMap(props) {
                     return acc;
                 }, {});
 
-            // Ordena os arrays das features por ordem alfabética (paliativo para prod)
+            // Ordena os arrays das features por ordem alfabética
             Object.entries(sortedServicesAdvanced).forEach(([name]) => {
                 sortedServicesAdvanced[name].features.sort((a, b) => {
                     if (['inmet', 'coletor'].includes(name)) {

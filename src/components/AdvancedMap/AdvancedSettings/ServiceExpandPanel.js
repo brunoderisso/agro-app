@@ -127,6 +127,7 @@ function ServiceExpandPanel(props) {
                     style={{ marginLeft: "0px", padding: "0px 10px 0px 0px" }}
                 >
                     <Grid container spacing={3}>
+                    {/* {expanded === t(`services.coletor`) && */}
                         {expanded === 'coletor' &&
                             <Grid item xs={12} style={{ paddingRight: '4px' }}>
                                 <CustomOutlineSelect

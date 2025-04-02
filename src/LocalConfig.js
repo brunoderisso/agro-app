@@ -14,7 +14,7 @@ export const LocalConfig = {
 	apiURL: getApiURL(domain),
 	sseURL: "https://sse.prediza.io",
 	clientID: "166848981107-0or9jpof6dm76l40lj2ibjdeob2i10gn.apps.googleusercontent.com",
-	googleMapsToken: "AIzaSyDG2C8P_NFIE_rJaKo7wkKsKHu71BgzBvc",
+	googleMapsToken: "AIzaSyD1LCTiF8JiqhEM-u3_N98uHlQfz9rgeYE",
 	iuguID: "268494F62A8D45B6BDD3D5AA85B96FA8"
 };
 

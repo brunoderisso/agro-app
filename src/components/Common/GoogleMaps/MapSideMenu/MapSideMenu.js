@@ -208,7 +208,7 @@ function MapSideMenu(props) {
             measureStore.emit('gradient_reset', null);
         }
 
-        if (name === 'implementos') {
+        if (name === 'maquinas') {
             GoogleMapsStore.emit('implements_click');
             GoogleMapsStore.showOnMap('implements', true);
 
@@ -246,15 +246,6 @@ function MapSideMenu(props) {
 
     const bodySubitemIconMenu = (name, object) => {
         const activeFeatures = object?.features?.filter(item => item.show_map) || [];
-
-        // Ordena o array por ordem alfabética (paliativo para prod)
-        // activeFeatures.sort((a, b) => {
-        //     if (['inmet', 'coletor'].includes(name)) {
-        //         return a.measure.localeCompare(b.measure);
-        //     } else {
-        //         return a.name.localeCompare(b.name);
-        //     }
-        // });
 
         return (
             <Grid>

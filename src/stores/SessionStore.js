@@ -639,7 +639,6 @@ class SessionStore extends EventEmitter {
             });
         }
     }
-    
     logout(callBackFunc) {
         localStorage.clear();
         sessionStorage.clear();
