@@ -1,0 +1,8 @@
+#responsivecontainer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 95vw;
+  height: 300px;
+  background-color: #fff;
+}
