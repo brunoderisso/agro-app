@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import Select from "react-select";
 import Button from "@material-ui/core/Button"
 
-//Prediza 
 import EnvironmentStore from "../stores/EnvironmentStore";
 
 const styles = () => ({

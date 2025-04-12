@@ -4,7 +4,6 @@ import { withStyles } from "@material-ui/core/styles";
 //Material UI
 import Modal from '@material-ui/core/Modal';
 
-//Prediza 
 import theme from "../styles/Utils/theme";
 import DatasetForm from "./DatasetLineForm";
 

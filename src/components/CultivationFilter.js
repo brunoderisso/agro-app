@@ -4,7 +4,6 @@ import { withStyles } from "@material-ui/core/styles";
 // Material UI
 import Grid from "@material-ui/core/Grid";
 
-//Prediza 
 import CultivationFilterItem from "../components/CultivationFilterItem"
 
 const styles = () => ({

@@ -12,7 +12,6 @@ import IconButton from "@material-ui/core/IconButton";
 import CreateIcon from "@material-ui/icons/Create";
 import Divider from "@material-ui/core/Divider";
 
-//Prediza 
 import MetaAdminModal from "../components/MetaAdminModal";
 import MetaStore from "../stores/MetaStore";
 import PredizaAlertDialog from "../components/PredizaAlertDialog";

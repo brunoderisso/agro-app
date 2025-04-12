@@ -7,7 +7,6 @@ import Grid from "@material-ui/core/Grid"
 import DeleteIcon from "@material-ui/icons/Delete";
 import SaveIcon from "@material-ui/icons/Save";
 
-//Prediza
 import DatasetTableStore from "../stores/DatasetTableStore";
 import PredizaAlertDialog from "../components/PredizaAlertDialog";
 

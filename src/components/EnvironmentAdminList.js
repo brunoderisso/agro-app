@@ -8,7 +8,6 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
 
-//Prediza 
 import EnvironmentAdminListRow from "./Admin/Environment/EnvironmentAdminListRow";
 import { useTranslation } from 'react-i18next';
 

@@ -6,7 +6,6 @@ import Grid from "@material-ui/core/Grid";
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 
-//Prediza 
 import AccountStore from "../stores/AccountStore";
 import PredizaAlertDialog from "../components/PredizaAlertDialog"
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { withStyles } from "@material-ui/core/styles";
 
-//Prediza
 import MeasureList from '../components/MeasureList';
 import GeoStore from "../stores/GeoStore";
 import MeasureStore from "../stores/MeasureStore";

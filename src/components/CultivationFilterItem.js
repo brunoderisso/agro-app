@@ -7,8 +7,6 @@ import ListItem from "@material-ui/core/ListItem"
 import ListItemText from "@material-ui/core/ListItemText"
 import theme from "../styles/Utils/theme";
 
-//Prediza 
-
 const styles = () => ({
     item: {
         paddingTop: 0,

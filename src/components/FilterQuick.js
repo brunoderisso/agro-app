@@ -5,7 +5,6 @@ import { withStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import List from "@material-ui/core/List";
 
-//Prediza 
 import FilterQuickItem from "../components/FilterQuickItem"
 
 const styles = {};

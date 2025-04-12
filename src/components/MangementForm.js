@@ -9,7 +9,6 @@ import Typography from '@material-ui/core/Typography';
 import Description from '@material-ui/icons/Description';
 import { Link } from "react-router-dom";
 
-//Prediza 
 import TaskStore from "../stores/TaskStore";
 import history from '../history';
 

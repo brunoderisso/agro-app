@@ -4,7 +4,6 @@ import { withStyles } from "@material-ui/core/styles";
 //Material UI
 import Grid from '@material-ui/core/Grid';
 
-// Prediza
 import FilterQuick from '../components/FilterQuick';
 import Calendar from './Common/CalendarFilter';
 import theme from "../styles/Utils/theme";

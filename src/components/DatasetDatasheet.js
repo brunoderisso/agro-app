@@ -8,7 +8,6 @@ import InputLabel from "@material-ui/core/InputLabel"
 import NativeSelect from "@material-ui/core/NativeSelect"
 import Input from "@material-ui/core/Input"
 
-//Prediza
 import '../css/override.css'
 import DatasetSheetRender from "../components/DatasetSheetRender";
 import DatasetRowRender from "../components/DatasetRowRender";
@@ -34,7 +33,7 @@ export default withStyles(style)(class OverrideEverythingSheet extends PureCompo
       grid: this.props.grid
     };
 
-    
+
   };
 
   componentWillReceiveProps(props) {
@@ -42,11 +41,11 @@ export default withStyles(style)(class OverrideEverythingSheet extends PureCompo
   };
 
   sheetRenderer(props) {
-    return <DatasetSheetRender  columns={this.props.keys} isDataset={this.props.types !== undefined} {...props} />
+    return <DatasetSheetRender columns={this.props.keys} isDataset={this.props.types !== undefined} {...props} />
   };
 
   rowRenderer(props) {
-    return <DatasetRowRender  type={this.props.selectedType} keys={this.props.keys} ids={this.props.ids} className='data-row' {...props} />
+    return <DatasetRowRender type={this.props.selectedType} keys={this.props.keys} ids={this.props.ids} className='data-row' {...props} />
   };
 
   cellRenderer(props) {
@@ -62,7 +61,7 @@ export default withStyles(style)(class OverrideEverythingSheet extends PureCompo
             <FormControl >
               <InputLabel shrink htmlFor="age-native-label-placeholder">
                 Tipo
-            </InputLabel>
+              </InputLabel>
 
               <NativeSelect
                 value={DatasetTableStore.selectedType}
@@ -73,9 +72,9 @@ export default withStyles(style)(class OverrideEverythingSheet extends PureCompo
                   return (<option key={val} value={val}>{val}</option>)
                 })}
               </NativeSelect>
-              
-  
-          </FormControl>
+
+
+            </FormControl>
             : ""}
         </div>
 

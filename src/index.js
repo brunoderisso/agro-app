@@ -9,8 +9,8 @@ ReactDOM.render(
   <div>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Prediza</title>
-      <meta name="description" content="Prediza | Login" />
+      <title>Agro App</title>
+      <meta name="description" content="Agro App | Login" />
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"></link>

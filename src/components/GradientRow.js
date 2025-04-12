@@ -7,7 +7,6 @@ import Input from "@material-ui/core/Input";
 import Button from "@material-ui/core/Button";
 import DeleteIcon from "@material-ui/icons/Delete";
 
-//Prediza
 
 //Others
 
@@ -22,16 +21,16 @@ const style = {
         width: "100%",
         minWidth: "100%",
         minHeight: "3vh",
-        marginTop:"6px"
+        marginTop: "6px"
     },
-    deleteButton:{
+    deleteButton: {
         width: "100%",
         minWidth: "100%",
         minHeight: "3vh",
-       
+
     },
-    icon:{
-        fontSize:"3vh"
+    icon: {
+        fontSize: "3vh"
     }
 };
 class GradientRow extends Component {
